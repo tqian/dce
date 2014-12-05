@@ -1,7 +1,8 @@
 # Instruction to estimate median deductively
 
-## Constantine Frangakis, Tianchen Qian, Zhenke Wu, Ivan Diaz"
-## Friday, November 21, 2014"
+Constantine Frangakis, Tianchen Qian, Zhenke Wu, Ivan Diaz
+
+Friday, November 21, 2014
 
 This is a walk-through of using the code `fcn_median_estimation.R` to deductively estimate the median outcome of a treatment arm of an ignorable assignment design (see paper "Deductive derivation and Turing-computerization of semiparametric efficient estimation" by Constantine Frangakis, Tianchen Qian, Zhenke Wu, and Ivan Diaz), and to obtain an estimated standard error.
 
