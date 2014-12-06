@@ -1,17 +1,14 @@
----
-title: "Instruction to estimate median deductively"
-author: "Constantine Frangakis, Tianchen Qian, Zhenke Wu, Ivan Diaz"
-date: "Friday, November 21, 2014"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{Vignette Title}
-  %\VignetteEngine{knitr::rmarkdown}
-  \usepackage[utf8]{inputenc}
----
+# Instruction to estimate median deductively
+
+Constantine Frangakis, Tianchen Qian, Zhenke Wu, Ivan Diaz
+
+Friday, November 21, 2014
 
 This is a walk-through of using the code `fcn_median_estimation.R` to deductively estimate the median outcome of a treatment arm of an ignorable assignment design (see paper "Deductive derivation and Turing-computerization of semiparametric efficient estimation" by Constantine Frangakis, Tianchen Qian, Zhenke Wu, and Ivan Diaz), and to obtain an estimated standard error.
 
 To run this example, you may clone the entire repository, and open the R file Instruction_code.R and follow/run the steps below.
+
+Also, you can download "Instruction.html" and open it using a web browser to see the code and the expected output from R. 
 
 ## Data Preparation
 
